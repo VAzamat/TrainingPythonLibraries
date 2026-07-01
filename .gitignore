@@ -88,3 +88,6 @@ local_settings.py
 
 ### FOR THIS PROJECT ONLY
 
+Cython/my_math.c
+Cython/build/*
+Cython/my_math.cpython-313-x86_64-linux-gnu.so
