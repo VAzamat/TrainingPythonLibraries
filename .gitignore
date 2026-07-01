@@ -92,3 +92,4 @@ Cython/my_math.c
 Cython/build/*
 Cython/my_math.cpython-313-x86_64-linux-gnu.so
 Cython/.ipynb_checkpoints/*
+numba/.ipynb_checkpoints/*
