@@ -11,3 +11,6 @@ end_time = time.perf_counter()
 
 print(f"Результат: {result}")
 print(f"Время выполнения: {(end_time - start_time) * 1000:.3f} мс")
+
+from my_math import factorial
+print( factorial(20) )
