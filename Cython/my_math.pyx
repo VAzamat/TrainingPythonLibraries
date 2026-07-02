@@ -4,6 +4,20 @@ import cython
 
 from libc.stdint cimport int64_t
 
+cimport numpy as cnp
+
+'''
+implement the dot product function:
+This function calculates the scalar product of two vector
+'''
+def dot_product(cnp.ndarray[double, ndim=1] A, cnp.ndarray[double, ndim=1] B):
+    cdef int i
+    cdef double result = 0
+    for i in range(A.shape[0]):
+        result += A[i] * B[i]
+    return result
+
+
 def factorial(int n):
     cdef int i
     cdef int64_t result = 1

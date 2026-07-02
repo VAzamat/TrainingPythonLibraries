@@ -14,3 +14,10 @@ print(f"Время выполнения: {(end_time - start_time) * 1000:.3f} м
 
 from my_math import factorial
 print( factorial(20) )
+
+
+from my_math import dot_product
+rng = np.random.default_rng()
+A = rng.random(1000000)
+B = rng.random(1000000)
+print( dot_product(A, B) )
