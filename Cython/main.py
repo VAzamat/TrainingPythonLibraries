@@ -21,3 +21,7 @@ rng = np.random.default_rng()
 A = rng.random(1000000)
 B = rng.random(1000000)
 print( dot_product(A, B) )
+
+from my_math import integrate_trapezoidal
+print( integrate_trapezoidal(-10.0, 10.0, 1000000) )
+
